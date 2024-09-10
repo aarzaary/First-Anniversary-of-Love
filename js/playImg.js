@@ -15,6 +15,8 @@ function showImage(){
 }
 
 function play(){
+  var audio = document.getElementById("audio");
+  audio.play();
 	if(t == 0){
 		myImage.setAttribute("src", "");
 		myTxt.innerHTML = "";
@@ -58,7 +60,7 @@ function buttonFadeIn(){
 
 function event(){
 
-	showImageInterval = setInterval(preshowImage, 100);
+	showImageInterval = setInterval(preshowImage, 500);
 
 	imgInterval = setInterval(function (){
 		if(ok == 3){

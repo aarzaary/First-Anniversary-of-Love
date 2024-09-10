@@ -137,3 +137,7 @@
 	text-align: center;
 	color: white;
 }
+
+img {
+  border-radius: 3%;
+}
