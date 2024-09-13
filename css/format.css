@@ -119,7 +119,7 @@
 	right: 0;
 	margin: auto;
 	width: auto;
-	height: 100%;
+	/* height: 100%; */
 }
 
 #Txt{
@@ -140,4 +140,7 @@
 
 img {
   border-radius: 3%;
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
 }
